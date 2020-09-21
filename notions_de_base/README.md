@@ -1,10 +1,19 @@
 # Notions de base Array et Object
 
+## But des exercices
+
+Ces exercices ont pour but de travailler sur la résolution d'algos, sur la qualité et la lisibilité du code.
+
+
 ## Enoncé
 
 Résoudre les exercices suivants, sans rechercher de solutions sur internet.
 
 Un seul lien autorisé : https://www.w3schools.com/jsref/jsref_obj_array.asp
+
+## Workflow
+
+Pour chaque exercice, créer une nouvelle branch. Une fois l'exercice résolu, soumettre une Pull Request.
 
 
 ## Exercice 1 
