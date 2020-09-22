@@ -1,9 +1,8 @@
-const getObjectList = (caddy) => {
-    if (isEmpty(caddy)) throw 'Your caddy is empty';
-    let objectList = caddy.map(object => {
+const getQuantityAndPriceOfObjects = (card) => {
+    if (isEmpty(card)) throw 'Your card is empty';
+    return card.map(object => {
       return {"quantity" : object.quantity, "price" : object.item.price};
     });
-    return objectList;
 }
 
 const isEmpty = (array) => {
