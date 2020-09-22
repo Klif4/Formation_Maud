@@ -29,6 +29,7 @@ Ecrire une fonction qui prend en entrée un tableau d'entiers et qui retourne l'
 ## Exercice 3
 
 Ecrire une fonction qui prend en entier un panier et qui retourne une liste d'objets
+NB : un panier aura toujours la même structure
 
 Exemple : 
 
