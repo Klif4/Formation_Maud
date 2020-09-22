@@ -76,21 +76,21 @@ Entrée:
 ```
 [
   {
-    quantity: 8
+    quantity: 8,
     item: {
       name: 'chaise',
       price: 10,
     }
   },
   {
-    quantity: 2
+    quantity: 2,
     item: {
       name: 'table',
       price: 50,
     }
   },
   {
-    quantity: 1
+    quantity: 1,
     item: {
       name: 'canape',
       price: 200,
