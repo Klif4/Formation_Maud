@@ -19,3 +19,5 @@ const hasNotOnlyNumbers = (array) => {
     const isNotANumber = (element) => isNaN(element);
     return array.some(isNotANumber);
 }
+
+module.exports = getLowerNumber;
