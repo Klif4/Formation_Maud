@@ -4,7 +4,7 @@
   "description": "Ces exercices ont pour but de travailler sur la résolution d'algos, sur la qualité et la lisibilité du code.",
   "main": "exercice1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
