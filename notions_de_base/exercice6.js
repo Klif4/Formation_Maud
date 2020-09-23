@@ -1,4 +1,4 @@
-const getCardSortByPrice = (card) => {
+const sortCardByPrice = (card) => {
     if (hasNoValidPrice(card)) throw "Invalid price"
     card.sort(function (actualObject, objectToCompare) {
         return actualObject.item.price - objectToCompare.item.price;
