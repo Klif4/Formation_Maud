@@ -1,4 +1,4 @@
-const getCardSortByQuantities = (card) => {
+const sorCardByQuantities = (card) => {
     if (hasNoValidQuantity(card)) throw "invalid quantity"
     card.sort(function (objectActual, objectToCompare) {
         return objectActual.quantity - objectToCompare.quantity
