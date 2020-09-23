@@ -1,0 +1,14 @@
+{
+  "name": "notions_de_base",
+  "version": "1.0.0",
+  "description": "Ces exercices ont pour but de travailler sur la résolution d'algos, sur la qualité et la lisibilité du code.",
+  "main": "exercice1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.4.2"
+  }
+}
