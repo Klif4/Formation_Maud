@@ -21,34 +21,3 @@ const hasNoValidPriceOrQuantity = (array) => {
     });
     return result;
 }
-
-const card = [
-    {
-      quantity: 8,
-      item: {
-        name: 'chaise',
-        price: 10,
-      }
-    },
-    {
-      quantity: 2,
-      item: {
-        name: 'table',
-        price: 50,
-      }
-    },
-    {
-      quantity: 1,
-      item: {
-        name: 'canape',
-        price: 200,
-      }
-    }
-  ]
-
-  try {
-      
-    console.log(getTheBill(card));
-  } catch (error) {
-      console.log(error);
-  }
