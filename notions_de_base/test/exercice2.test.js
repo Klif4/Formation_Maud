@@ -7,33 +7,15 @@ test('test Throw function', () => {
 });
 test('getLowerNumber throw an exception when it\'s not an array', () => {
     let arrayTest = '';
-    try {
-        getLowerNumber(arrayTest);
-        fail('function should throw an error')
-
-    } catch (error) {
-        expect(error).toBe('Parameter is not an array')
-    }
+    expect(() => {getLowerNumber(arrayTest)}).toThrowError('Parameter is not an array');
 })
 test('getLowerNumber throw an exception when the array is empty', () => {
     let arrayTest = [];
-    try {
-        getLowerNumber(arrayTest);
-        fail('function should throw an error')
-
-    } catch (error) {
-        expect(error).toBe('The array is empty')
-    }
+    expect(() => {getLowerNumber(arrayTest)}).toThrowError('The array is empty');
 })
 test('getLowerNumber throw an exception when the array has not only numbers', () => {
     let arrayTest = [2, -25, 'toto'];
-    try {
-        getLowerNumber(arrayTest);
-        fail('function should throw an error')
-
-    } catch (error) {
-        expect(error).toBe('Your array must contain numbers only')
-    }
+    expect(() => {getLowerNumber(arrayTest)}).toThrowError('Your array must contain numbers only')
 })
 test('getLowerNumber return lower number', () => {
     let arrayTest = [2, -25, 30];
