@@ -1,10 +1,4 @@
 const {getLowerNumber, isAnArray, isEmpty, hasNotOnlyNumbers} = require('../src/exercice2');
-
-test('test Throw function', () => {
-    let arrayTest = [];
-    expect(() => { getLowerNumber(arrayTest) })
-        .toThrowError('The array is empty')
-});
 test('getLowerNumber throw an exception when it\'s not an array', () => {
     let arrayTest = '';
     expect(() => {getLowerNumber(arrayTest)}).toThrowError('Parameter is not an array');
