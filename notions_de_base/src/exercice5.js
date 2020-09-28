@@ -1,4 +1,4 @@
-const sorCardByQuantities = (card) => {
+const sortCardByQuantities = (card) => {
     if (hasNoValidQuantity(card)) throw "invalid quantity"
     card.sort(function (objectActual, objectToCompare) {
         return objectActual.quantity - objectToCompare.quantity
@@ -13,3 +13,5 @@ const hasNoValidQuantity = (array) => {
     });
     return result; 
 }
+
+module.exports = {sortCardByQuantities, hasNoValidQuantity};

@@ -13,3 +13,5 @@ const hasNoValidPrice = (array) => {
     });
     return result;
 }
+
+module.exports = {sortCardByPrice, hasNoValidPrice}

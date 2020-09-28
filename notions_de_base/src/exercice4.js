@@ -12,12 +12,14 @@ const isEmpty = (array) => {
     return array.length === 0;
 }
 
-const hasNoValidPriceOrQuantity = (array) => {
+const hasNoValidPriceOrQuantity = (card) => {
     let result = false;
-    array.forEach(object => {
+    card.forEach(object => {
         if (isNaN(object.quantity) || isNaN(object.item.price) || object.quantity === null || object.item.price === null || typeof(object.quantity) === "string" || typeof(object.item.price) === "string") {
             result = true;
         };
     });
     return result;
 }
+
+module.exports = {getTheBill, isEmpty, hasNoValidPriceOrQuantity};

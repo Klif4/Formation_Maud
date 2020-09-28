@@ -8,3 +8,5 @@ const getQuantityAndPriceOfObjects = (card) => {
 const isEmpty = (array) => {
   return array.length===0;
 }
+
+module.exports = {getQuantityAndPriceOfObjects, isEmpty}
