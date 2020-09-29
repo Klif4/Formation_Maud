@@ -1,7 +1,4 @@
 .vscode/
 notions_de_base/node_modules/
 /notions_de_base/.idea/
-<<<<<<< HEAD
-=======
 .idea/
->>>>>>> add .idea/ in .gitignore
